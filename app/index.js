@@ -1,19 +1,14 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+import PropTypes from 'prop-types';
 require('./index.css');
+var App = require('./components/App');
 
 //state
 //lifecycle event
 //UI
 
-class App extends React.Component{
-    render(){
-        return (
-            <div>
-                Hello React!
-            </div>
-        )
-    }
-}
-
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);

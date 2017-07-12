@@ -1,4 +1,22 @@
 body{
-    background:green;
-    color: #fff;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    padding: 0;
+}
+.languages li{
+    margin: 10px;
+    font-weight: 600;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.languages{
+    display: flex;
+    justify-content: center;
 }
