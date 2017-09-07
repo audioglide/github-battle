@@ -43,3 +43,8 @@ li{
     font-size: 20px;
     margin: 10px;
 }
+.app-loader p{
+    text-align: center;
+    font-weight: 600;
+    color: #d0021b;
+}
